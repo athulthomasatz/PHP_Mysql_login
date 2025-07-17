@@ -17,6 +17,6 @@ $username = $_SESSION['username'];
 <body>
     <h2>Welcome, <?php echo htmlspecialchars($username); ?>!</h2>
     <p>You are logged in.</p>
-    <a href="logout.php">Logout</a>
 </body>
+<a href="logout.php">Logout</a>
 </html>
